@@ -1,0 +1,120 @@
+/*
+Theme Name: Traction
+Theme URI: https://www.figma.com/file/bJ12WF4fkOkS03FCdNvarC/Teste---Template-WordPress---Seja-um-Expert?node-id=0%3A1
+Author: Marcos Fernando
+Description: Traction - Seja um Expert
+Version: 1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: url('./assets/img/bg.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+h1{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+h2{
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 9%;
+}
+
+p{
+    color: #8D92A1;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+input{
+    background: #171A1F !important;
+    border: 3px solid rgba(255, 255, 255, 0.1) !important;
+    box-sizing: border-box !important;
+    border-radius: 15px !important;
+    padding: 26px !important;
+    margin-top: 3%;
+    color: #fff !important;
+}
+
+.btn-warning{
+    background: #FF4F4F !important;
+    border-radius: 15px !important;
+    margin: 5% 0;
+    padding: 1em !important;
+    border-color: #FF4F4F !important;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+figure{
+    text-align: center;
+    margin: 5% 0 8% 0;
+}
+
+.container{
+    max-width: 800px;
+}
+
+.titulo_radio{
+    font-size: 1.1em;
+}
+
+.radio-item {
+    position: relative;
+    padding: 0 6px;
+    margin: 15px 0 0;
+    background-color: #171A1F;
+    display: block;
+    border-radius: 10px;
+  }
+
+.radio-item:hover, .radio-item:active{
+    background-color: #282D36;
+}
+
+.radio-item input[type='radio'] {
+    display: none;
+}
+
+.radio-item label {
+    line-height: 1.8em;
+    color: #fff;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #fff;
+}
